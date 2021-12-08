@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: all
+  hosts: test
   remote_user: test
   tasks:
   - name: Hello Message
