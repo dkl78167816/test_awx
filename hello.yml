@@ -4,4 +4,4 @@
   tasks:
   - name: Hello Message
     debug:
-      msg: "hello world from {{ ansible_default_ipv4.gateway }}"
+      msg: "hello world from {{ ansible_host }}"
