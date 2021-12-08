@@ -1,0 +1,7 @@
+- name: Hello World Sample
+  hosts: all
+  remote_user: test
+  tasks:
+  - name: Hello Message
+    debug:
+    msg: "hello world from \{\{ ansible_default_ipv4.gateway \}\}"
