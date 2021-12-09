@@ -3,5 +3,11 @@
   hosts: test
   remote_user: test
   tasks:
-  - name: get ls
+  - name: just ls
     shell: ls /
+    register: result
+  
+  - name: get ls
+    debug: 
+      msg: "{{ result.stdout }}"
+ 
