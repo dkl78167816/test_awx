@@ -1,0 +1,7 @@
+
+- name: ls Sample
+  hosts: test
+  remote_user: test
+  tasks:
+  - name: get ls
+    shell: ls /

@@ -1,8 +1,0 @@
-
-- name: fact Sample
-  hosts: test
-  remote_user: test
-  tasks:
-  - name: get fact
-    setup:
-      filter: "ansible_*_mb"
