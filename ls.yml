@@ -1,6 +1,6 @@
 
 - name: ls Sample
-  hosts: Static resource server
+  hosts: all
   remote_user: test
   tasks:
   - name: just ls
